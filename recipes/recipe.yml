@@ -13,7 +13,7 @@ image-version: latest
 # you can include multiple instances of the same module
 modules:
   - type: files
-	
+
   - type: brew
       brew-analytics: false
       
