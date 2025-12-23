@@ -21,7 +21,7 @@ modules:
     repos:
       nonfree: rpmfusion
       cleaunp: true
-   install: 
+    install: 
       packages:
         -afetch
         -onefetch
