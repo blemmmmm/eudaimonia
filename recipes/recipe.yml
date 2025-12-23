@@ -18,18 +18,15 @@ modules:
     brew-analytics: false
       
   - type: dnf
-   
     repos:
      	nonfree: rpmfusion
      	cleaunp: true
-   
-    install: 
+   install: 
       packages:
         -afetch
         -onefetch
         -rofi
         -sakura
-      
     group-install:
     with-optional: true
       packages: 
