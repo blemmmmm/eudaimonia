@@ -19,8 +19,8 @@ modules:
       
   - type: dnf
     repos:
-     	nonfree: rpmfusion
-     	cleaunp: true
+      nonfree: rpmfusion
+      cleaunp: true
    install: 
       packages:
         -afetch
