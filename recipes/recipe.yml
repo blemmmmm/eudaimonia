@@ -12,21 +12,19 @@ image-version: latest
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
-  - type: files
-
   - type: brew
     brew-analytics: false
       
   - type: dnf
     repos:
       nonfree: rpmfusion
-      cleaunp: true
+      cleanup: true
     install: 
       packages:
-        -afetch
-        -onefetch
-        -rofi
-        -sakura
+        - afetch
+        - onefetch
+        - rofi
+        - sakura
     group-install:
       with-optional: true
       packages: 
