@@ -42,7 +42,7 @@ modules:
         - NerdFontsSymbolsOnly
           
   - type: os-release
-     properties:
+    properties:
       ID: blue_build
       ID_LIKE: fedora
       NAME: Eudaimonia
