@@ -36,17 +36,17 @@ modules:
         - gnome-desktop
   
   - type: fonts
-      fonts:
-        nerd-fonts: 
-          - Hack
-          - NerdFontsSymbolsOnly
+    fonts:
+      nerd-fonts: 
+        - Hack
+        - NerdFontsSymbolsOnly
           
   - type: os-release
-      properties:
-        ID: blue_build
-        ID_LIKE: fedora
-        NAME: Eudaimonia
-        PRETTY_NAME: Eudaimonia 
+     properties:
+      ID: blue_build
+      ID_LIKE: fedora
+      NAME: Eudaimonia
+      PRETTY_NAME: Eudaimonia 
         
   - type: signing
   
