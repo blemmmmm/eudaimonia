@@ -30,10 +30,10 @@ modules:
     group-install:
       with-optional: true
       packages: 
-        - @basic-desktop
+        - basic-desktop
     group-remove:
       packages:
-        - @gnome-desktop
+        - gnome-desktop
   
   - type: fonts
       fonts:
