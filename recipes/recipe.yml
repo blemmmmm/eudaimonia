@@ -18,25 +18,25 @@ modules:
     brew-analytics: false
       
   - type: dnf
-      repos:
+   
+    repos:
      	nonfree: rpmfusion
      	cleaunp: true
-      install: 
-      	packages:
-          -afetch
-          -onefetch
-          -rofi
-          -sakura
-      remove:
-        packages:
+   
+    install: 
+      packages:
+        -afetch
+        -onefetch
+        -rofi
+        -sakura
       
-      group-install:
-        with-optional: true
-        packages: 
-          - @basic-desktop
-      group-remove:
-        packages:
-          - @gnome-desktop
+    group-install:
+    with-optional: true
+      packages: 
+        - @basic-desktop
+    group-remove:
+      packages:
+        - @gnome-desktop
   
   - type: fonts
       fonts:
