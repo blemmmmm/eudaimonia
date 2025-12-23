@@ -28,7 +28,7 @@ modules:
         -rofi
         -sakura
     group-install:
-    with-optional: true
+      with-optional: true
       packages: 
         - @basic-desktop
     group-remove:
