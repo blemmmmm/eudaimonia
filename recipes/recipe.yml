@@ -22,11 +22,16 @@ modules:
     install: 
       packages:
         - afetch
-        - onefetch
+        - zathura
         - rofi
         - sakura
     group-install:
       with-optional: true
+      exclude:
+        - awesome
+        - i3
+        - ratpoison
+        - xmonad-basic
       packages: 
         - basic-desktop
     group-remove:
