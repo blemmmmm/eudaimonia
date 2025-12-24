@@ -24,7 +24,7 @@ modules:
         - afetch
         - zathura
         - rofi
-        - sakura
+        - urxvt
     group-install:
       with-optional: true
       exclude:
