@@ -21,7 +21,7 @@ modules:
       cleanup: true
     install: 
       packages:
-        - afetch
+        - nitrogen
         - zathura
         - rofi
         - urxvt
