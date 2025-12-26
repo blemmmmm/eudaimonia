@@ -25,6 +25,9 @@ modules:
         - zathura
         - rofi
         - urxvt
+        - gtk-murrine-engine
+        - lxappearance
+        - lxappearance-obconf
     group-install:
       with-optional: true
       exclude:
@@ -52,7 +55,6 @@ modules:
       PRETTY_NAME: Eudaimonia 
         
   - type: signing
-  
   
         
         
