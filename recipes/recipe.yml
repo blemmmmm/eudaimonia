@@ -28,6 +28,7 @@ modules:
         - gtk-murrine-engine
         - lxappearance
         - lxappearance-obconf
+        - polybar
     group-install:
       with-optional: true
       exclude:
