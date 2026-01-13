@@ -29,6 +29,7 @@ modules:
         - lxappearance
         - lxappearance-obconf
         - polybar
+        - gnome-screenshot
     group-install:
       with-optional: true
       exclude:
