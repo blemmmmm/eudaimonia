@@ -30,6 +30,7 @@ modules:
         - lxappearance-obconf
         - polybar
         - gnome-screenshot
+        - frei0r-plugins
     group-install:
       with-optional: true
       exclude:
