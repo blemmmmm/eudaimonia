@@ -31,6 +31,8 @@ modules:
         - polybar
         - gnome-screenshot
         - frei0r-plugins
+        - vlc
+        - kdenlive
     group-install:
       with-optional: true
       exclude:
